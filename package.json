@@ -9,5 +9,5 @@
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
-  "main": "index.js"
+  "main": "lib/index.js"
 }
