@@ -2,7 +2,7 @@
   "name": "scola-di",
   "version": "1.0.0",
   "description": "Dependency Injection",
-  "keywords": ["dependency", "injection", "di"],
+  "keywords": ["dependency", "injection"],
   "repository": {
     "type": "git",
     "url": "https://github.com/scola84/node-di"
