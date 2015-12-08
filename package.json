@@ -1,13 +1,27 @@
 {
-  "name": "scola-di",
+  "name": "@scola/di",
   "version": "1.0.0",
   "description": "Dependency Injection",
-  "keywords": ["dependency", "injection"],
+  "keywords": [
+    "dependency",
+    "injection"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/scola84/node-di"
+    "url": "git+https://github.com/scola84/node-di"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify", {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
 }
